@@ -1,0 +1,41 @@
+.header {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    box-shadow: indigo;
+    text-shadow: -7px -1px 15px rgba(66, 68, 90, 1);
+}
+
+.header__navigation {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+.header__navigationList {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+
+}
+
+.header__navigationList--decorate {
+    font-weight: bold;
+    text-decoration: none;
+}
+.header__navigation {
+    float: left;
+    width: 25%;
+    list-style-type: none;
+}
+
+.header__navigationList {
+    float: left;
+    width: 100%;
+    list-style-type: none;
+
+}
+
+.header__navigationList--decorate {
+    font-weight: bold;
+    text-decoration: none;
+}

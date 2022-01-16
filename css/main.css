@@ -1,0 +1,15 @@
+.main {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    border-top: 20px;
+    border-right-width: 0px;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-color: whitesmoke;
+    border-style: solid;
+
+}
+
+.main__foto {
+    border-radius: 50%;
+}

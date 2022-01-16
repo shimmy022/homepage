@@ -1,0 +1,81 @@
+.section {
+    color: black;
+    background-color: rgb(200, 186, 226);
+    font-size: 18px;
+    line-height: 28px;
+    border-width: 10px 12px;
+    border-color: indigo;
+    border-style: solid;
+    padding: 5px 10px;
+
+}
+
+.section--first {
+    margin-top: 20px;
+}
+
+
+.section__header {
+    font-family: 'Staatliches', cursive;
+    text-align: center;
+    border: 5px 5px;
+    border-color: indigo;
+    border-style: ridge;
+    background-color: whitesmoke;
+    height: 100%;
+}
+
+.section__table {
+    width: 100%;
+    background-color: rgb(200, 186, 226);
+    text-align: center;
+}
+
+.section__tableHeader {
+    border: 2px solid indigo;
+    border-width: 0 4px 4px 0px;
+    padding: 20px;
+    width: 100%;
+}
+
+.section__tableData:hover {
+    background-color: #eee;
+}
+
+.section__tableData {
+    border: 2px solid indigo;
+    border-collapse: collapse;
+    border-width: 0 0 4px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+
+}
+
+.section__TableLink {
+    text-decoration: none;
+    color: indigo;
+    height: 100%;
+}
+
+.section__TableLink:visited {
+    color: rgb(0, 0, 0);
+}
+
+.section__TableLink:focus {
+    outline: 2px solid currentColor;
+}
+
+.section__TableLink:hover {
+    color: indigo;
+    border-bottom-color: 1px solid red;
+    outline: none;
+}
+
+.section__TableLink:active {
+    color: darkred;
+}
+
+.section__paragraph {
+    text-align: right;
+}
